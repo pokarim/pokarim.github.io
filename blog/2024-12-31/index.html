@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>pokarim blog</title>
+  
+  <style>
+    /* https://github.com/Andy-set-studio/modern-css-reset */
+  *,*::before,*::after{box-sizing:border-box}body,h1,h2,h3,h4,p,figure,blockquote,dl,dd{margin:0}ul[role="list"],ol[role="list"]{list-style:none}html:focus-within{scroll-behavior:smooth}body{min-height:100vh;text-rendering:optimizeSpeed;line-height:1.5}a:not([class]){text-decoration-skip-ink:auto}img,picture{max-width:100%;display:block}input,button,textarea,select{font:inherit}@media(prefers-reduced-motion:reduce){html:focus-within{scroll-behavior:auto}*,*::before,*::after{animation-duration:.01ms !important;animation-iteration-count:1 !important;transition-duration:.01ms !important;scroll-behavior:auto !important}}
+  </style>
+          <link rel="stylesheet" href="https://pokarim.net/style.css"/>
+        
+
+</head>
+
+<body>
+  <section class="section">
+    <div class="container">
+      
+<main>
+<h1 class="title">
+  2024ふりかえり
+</h1>
+<p class="subtitle">2024-12-24</p>
+<h2 id="setukakunanode"><a class="zola-anchor" href="#setukakunanode" aria-label="Anchor link for: setukakunanode">せっかくなので</a></h2>
+<p>せっかく個人ブログをつくったばかりなので、かけこみで2024のふりかえり記事を書く。
+文章かこうというおもって書くのけっこう難しい。いけるか？</p>
+<h2 id="qian-ban"><a class="zola-anchor" href="#qian-ban" aria-label="Anchor link for: qian-ban">前半</a></h2>
+<p>引っ越しをした。それが大変だったことしか記憶にない。ぼんやりとだけどローカルなコミュニティについて考えるきっかけになった。書いてて思い出したけどその頃は『万物の黎明』を読んでいた。とくにそれを目的に読み始めたわけではないけれどコミュニティに関係する側面もけっこうあった。けど前半だけ読んで積んでしまった。前半面白かったのできちんと最後まで読んでおきたい。</p>
+<p>作図エディタを作り始めた。それといっしょに図について考え始めた。テキストエディタと制御文字を拡張して図をかけるようにするというのを以前やって、その結果いろいろと得るものもあったのだけど限界を感じて方向転換することになった。</p>
+<p>図をかこうとするとき、ほしいものの絵と論理的内容が最初から明確になっている場合は少なくてぼんやりとした２次元的なイメージから始まって要素をてきとうに配置しつつ試行錯誤して内容を決めていくことのほうがたぶん多い。テキストエディタを拡張していく方法ではその「ぼんやりとした配置」からのスタートというのがどうにもうまくサポートできない。ただ要素を好きなところに配置できるドローソフトからはじめてそれを拡張してなんとか図の構造をうまく扱えるところまでたどり着きたいというのが今回の目論見。</p>
+<p>RustとBevy engineを使うことにしたのでRustの勉強もはじめた。前半はかなり苦戦した。ライフタイムパラメータの扱い難しい。BevyはECSを採用していてこれはかなり面白かった。あらためてオブジェクト指向とはなんだったのかについて考えざるを得なくなった。オブジェクト指向のお作法が無自覚に内面化されていたようでそれを引き剥がすのにも苦労した。結果的にかなり勉強になった。</p>
+<h2 id="hou-ban"><a class="zola-anchor" href="#hou-ban" aria-label="Anchor link for: hou-ban">後半</a></h2>
+<p>図についてもやもやと考えてたところ『Diagrammatology』の存在を<a href="https://murashit.net/">murashit</a>さんに<a href="https://bsky.app/profile/murashit.net/post/3lad2enafsq2d">教えてもらった</a>。これがとにかく大きな事件だった。</p>
+<p>なんとはなしに『言語はこうして生まれる』を読んでいたところ、図とはなにかについて示唆的なことも書かれている気がしてきてそれを<a href="https://sizu.me/pokarim/posts/z2d1kww4tdwc">『しずかなインターネット』に書いた。</a>『言語はこうして生まれる』の主張は言語は即興のジェスチャーゲームだというものだった。ジェスチャーと図はよく似ている気がする。「言語＝即興ジェスチャーゲーム＝図」と考えると図についてなにかわかりそう、それにしても図は明確な大分類もなく個々の図は多岐にわたっていて全体としてとらえどころがない、そういう内容を書いた。</p>
+<p>そのリアクションとして『Diagrammatology』を教えてもらったのだけどもこれがクリティカルヒットだった。自分で検索したりして<a href="https://discovery.ucl.ac.uk/id/eprint/10096379/1/Ambrosio_Diagrams_Accepted_IRIS.pdf">『Toward an Integrated History and Philosophy of Diagrammatic Practices』</a>を読んでみたりしてたんだけど面白くもありつつ自分の欲しいものが書かれているかという点ではいまいちしっくりこなくてうーんとなっていた。のだけど『Diagrammatology』はこれがまさに欲しかったものという感じで衝撃的だった。</p>
+<p>『Diagrammatology』の内容にふれていると年が明けそうなのでそれは来年書くとして。『Diagrammatology』ではおもにパースとフッサールが軸になっていて、副読本として『パースの哲学について本当のことを知りたい人のために』『現象学入門』『フッサール 志向性の哲学』も読んでいる。『フッサール 志向性の哲学』もmurashitさんに教えてもらったのだけどこれはかなりわかりやすくて助かっている。この本でなければ自分がフッサールの議論を理解するのは不可能だったんじゃないかという気がする。</p>
+<p>でここらへんの話をmstdn.jpやbskyに投稿したりしていてどうも不自由に感じて用途別に複数アカウントを使う運用を始めた。ふだんテキストを書かずに写真投稿ばかりになることがおおくて、そうすると写真投稿アカウントみたいになってしまってプログラミングの話とかがしづらくなってしまった。それはずっと気になってはいたんだけど、なぜだか今回は踏ん切りがついて複数アカウントにわけることにした。これは正解だった。ひさしぶりに雑な書き込みというのをさせてもらって楽しんだ。</p>
+<p>で年末の12/24に<a href="https://pokarim.net/blog/2024-12-24/">個人ブログ（これ）を始めた</a>。まだ始めたばかりだけど個人ブログはやってみて良かったと感じてる。あとCSSは実地でやってみると難しかった。でもこれも勉強になって良かった。なんでもやってみないと難しさはわかりませんね。そしてせっかく個人ブログを始めたのだから年の瀬の振り返り記事というやつを自分でも書きたいなとおもってこの記事を書いてる。</p>
+<p>あと、好きな画家のひとからとつぜん連絡があって壁紙などにしたいから写真をいくつか大きなサイズでほしいという話をもらった。これはすごく驚きでとてもうれしかった。必要なら対価をという話もいただいてそれ自体というかその丁寧さがまたうれしかった。なんというか不思議な気持ちだった。これについては、とにかくなんらかのお役に立てればほんとに幸いですという気持ち。これにつきる。</p>
+<h2 id="lai-nian"><a class="zola-anchor" href="#lai-nian" aria-label="Anchor link for: lai-nian">来年</a></h2>
+<p>来年はエディタの開発をがんばりたいと思う。仕様について模索しながらなのでなかなか開発が進まないことも多いけど、こうコードはコードで継続的にいじり続ける、というのをやっていきたいと思う。あと最近は副読本にかかりきりになってしまっているので『Diagrammatology』の方ももう少し読み進めていきたい。</p>
+
+</main>
+
+    </div>
+  </section>
+</body>
+
+</html>
